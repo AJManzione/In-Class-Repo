@@ -8,7 +8,7 @@ h2 {
 }
 
 ul {
-  text-align: right;
+  text-align: left;
   color: #ffffff;
 }
 
@@ -27,18 +27,27 @@ img {
 
 #item-1 {
   background-color: #e0115f;
+  display: inline;
 }
 
 #item-2 {
   background-color: #0000ff;
+  display: inline;
 }
 
 #item-3 {
   background-color: #999900;
+  display: inline;
 }
 
-/* Box 3 */
+#image-1 {
+  display: block;
+}
+
+#image-2 {
+  display: block;
+}
+
 #image-3 {
-  /* TODO: Add your code here */
-  display: none;
+  display: block;
 }
