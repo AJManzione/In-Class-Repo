@@ -1,0 +1,111 @@
+/* TODO: Set the font size and line height */
+body {
+  font-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+p {
+  line-height: 150%;
+}
+h1, h2, h3 {
+  font-size: 175%;
+}
+
+hr {
+
+}
+
+
+header, p, ul {
+  margin: 3.5%;
+}
+
+li {
+  line-height: 3;
+  font-size: 120%;
+  margin-left: 50px ;
+  font-family: monospace;
+  list-style-type: square;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  color: #b9c6ae;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex: 1 1 0;
+  max-width: 1200px;
+  margin: 2% auto;
+}
+
+section {
+  flex: 1 1 0;
+  padding-right: 5%;
+}
+
+article {
+  margin-top: 20px;
+  border-bottom: 1px solid #d8a47f;
+}
+
+/* TODO: Add a margin to the top and bottom of the paragraphs */
+article p {
+}
+
+/* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
+article ul {
+}
+
+aside {
+  width: 25%;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 2% 0;
+  padding: 1%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+}
